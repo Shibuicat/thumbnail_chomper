@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Thumbnail Chopper",
+  "version": "1.0",
+  "description": "Remove Youtube thumbnail so you won't be distracted",
+  "icons": {
+    "48": "icons/favicon.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://i.ytimg.com/",
+    "https://i9.ytimg.com/",
+    "https://www.youtube.com/"
+  ],
+  "background": {
+    "scripts": ["thumbnail_chopper.js"]
+  }
+}
